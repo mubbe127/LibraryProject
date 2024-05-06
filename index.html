@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./libraryobject.css">
+    <script src="./libraryobject.js" defer></script>
+</head>
+<body>
+
+
+<Header><h1> MY BOOKSHELF</h1></Header>
+
+<main>
+
+<div id="library">  </div>
+
+<button class="newbook">+</button> 
+
+
+<div class="bookform">
+    <form action="" class="bookform1" >
+    <h1>Add book</h1>
+
+    <div> <button class="close"> x </button></div>
+   
+        
+       <div class="inputText">
+         <div>
+            <label for="title">Book title:</label>
+            <input type="text" name="title" id="title">
+         </div>
+
+            <label for="author">Book author:</label>
+            <input type="text" name="author" id="author">
+          <div>
+
+            <label for="pages">Amount of pages:</label>
+            <input type="number" name="pages" id="pages">
+        </div>
+
+         </div>
+    
+
+            <fieldset>
+                <legend> Have you read this book? </legend>
+                <div>
+                    <label for="readornot">Yes:</label>
+                    <input type="radio" name="read" id="readornot" value="yes">
+                </div>
+
+                <div>
+                    <label for="readornot">No:</label>
+                    <input type="radio" name="read" id="readornot" value="no">
+                </div>
+
+            </fieldset>
+
+      
+        
+        <div class="button">
+            <button id="addBook">Add book</button>
+        </div>
+
+     
+
+
+    </form>
+
+</main>
+ 
+</body>
+</html>
