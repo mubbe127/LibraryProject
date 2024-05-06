@@ -74,15 +74,15 @@ function addBookToTable(){
   
 
   const library= document.querySelector('#library')
-  library.innerHTML=""
+  library.innerHTML= ""
 
   myLibrary.forEach( (item, index)=> {
  
     const card = document.createElement('div') 
     card.classList.add("thecard")
    
-    const referenceNode = library.childNodes[0];
-    library.insertBefore(card, referenceNode)
+  
+    library.appendChild(card)
 
     for (const key in item) {
 
