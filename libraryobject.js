@@ -59,10 +59,6 @@ function addBook() {
   document.getElementById('author').value = '';
   document.getElementById('pages').value = '';
   document.querySelector('input[name="read"]:checked').checked = false;  
-  
-  
-
-
 
 addBookToTable()
 }
@@ -74,8 +70,9 @@ function addBookToTable(){
   
 
   const library= document.querySelector('#library')
+  const newbook = document.querySelector('.newbook')
   library.innerHTML= ""
-
+  library.appendChild(newbook)
   myLibrary.forEach( (item, index)=> {
  
     const card = document.createElement('div') 
@@ -135,6 +132,5 @@ function addBookToTable(){
 
 
 
-
-
+const murcur= 1
 // Event listener for the button click

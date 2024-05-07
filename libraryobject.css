@@ -16,12 +16,9 @@ main{
     background: linear-gradient( 350deg, rgb(218, 177, 180), white) ;
     background-repeat: repeat-y;
     height:clamp(1000px, 100vh, 100vh);
-    display:flex;
-    flex-flow: reverse;
-    gap: 10px;
     
-
- 
+    
+    
 }
 
 
@@ -49,9 +46,6 @@ button.newbook {
 #library{
     display: flex;
     flex-flow: row wrap;
-    gap: 20px;
-  
-    
 
 }
 
@@ -69,7 +63,7 @@ button.newbook {
     background-color: white;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
     gap: 10px;
-    margin: 30px 20px;
+    margin: 30px 10px 10px 20px;
 }
     
 
@@ -85,7 +79,7 @@ input, select {
 
 
 .tooglediv {
-    margin-top: 15px;
+   
     display:flex;
     flex-direction: row;
     gap: 20px;
